@@ -4,20 +4,19 @@ Forest AI's Sensor node that sends alerts to Forest AI cloud platform
 
 
 
+#### Particle console webhook :
+
 {
-    "event": "firebase",
-    "url": "https://forest-ai-console.firebaseio.com/Test_Alert.json",
+    "event": "forest-ai-live",
+    "url": "https://forest-ai-console.firebaseio.com/Raw_Alert.json",
     "requestType": "POST",
     "noDefaults": true,
     "rejectUnauthorized": false,
-    "json": {
-        "location": "{{loc}}",
-        "activity": "{{act}}",
-        "latitude": "{{lat}}",
-        "longitude": "{{lng}}",
-        "time": "{{tim}}"
+    "headers": {
+        "Content-Type": "application/json"
     },
     "query": {
-        "auth": "LMxSMgHNBwzEkDqdrg5OmfTjCoEjRLHD10T2EOYP"
-    }
+        "auth": "your-firebase-database-auth-key"
+    },
+    "body": "{\"lat\":{{lat}}, \"long\":{{long}}, \"location\":\"{{loc}}\", \"activity\":\"{{act}}\", \"time\":\"{{tim}}\"}"
 }
