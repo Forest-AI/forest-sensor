@@ -12,7 +12,7 @@ Forest AI's Sensor node that sends alerts to Forest AI cloud platform
 
 #### Particle console webhook setup:
 
-this needs to be pasted in your console.particle.io accounts webhook in the integration tab
+Go to integration section of [particle console](https://console.particle.io/devices) and click on `create webhook` and paste below JSON snippet
 
 ```json
 {
@@ -31,6 +31,6 @@ this needs to be pasted in your console.particle.io accounts webhook in the inte
 }
 ```
 
-Your Integration should
+Your Integration should look like this
 
 # ![Webhook](asset/webhook-page.png?raw=true)
