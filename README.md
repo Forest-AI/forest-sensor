@@ -4,11 +4,11 @@ Forest AI's Sensor node that sends alerts to Forest AI cloud platform
 
 #### Setup a particle devboard:
 
-[![Watch the video]](https://www.youtube.com/watch?v=xK20wrWDduQ)
+[Watch the setup video](https://www.youtube.com/watch?v=xK20wrWDduQ)
 
 #### Coding environment:
 
-(https://build.particle.io/build)
+[Online devlopment IDE](https://build.particle.io/build)
 
 #### Particle console webhook setup:
 
@@ -33,4 +33,4 @@ this needs to be pasted in your console.particle.io accounts webhook in the inte
 
 Your Integration should
 
-# ![Webhook]s(asset/webhook-page.png?raw=true)
+# ![Webhook](asset/webhook-page.png?raw=true)
